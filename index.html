@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Armaan Aggarwal - Resume Template 5</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: #f7f7f7; /* Light gray background */
+        color: #333;
+      }
+      .resume-container {
+        max-width: 900px;
+        margin: 2rem auto;
+        background-color: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+        overflow: hidden;
+      }
+      .header-section {
+        background-color: #1f2937; /* Dark slate gray */
+        color: #ffffff;
+        padding: 2.5rem 3rem;
+        text-align: center;
+        border-bottom: 5px solid #ef4444; /* Red accent line */
+      }
+      .section-title {
+        color: #1f2937;
+        font-weight: 800;
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        margin-bottom: 1.5rem;
+        position: relative;
+        padding-bottom: 0.75rem;
+      }
+      .section-title::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 70px;
+        height: 4px;
+        background-color: #ef4444; /* Red accent */
+        border-radius: 2px;
+      }
+      .main-content {
+        padding: 2.5rem 3rem;
+      }
+      .list-item {
+        margin-bottom: 0.5rem;
+      }
+      .experience-item,
+      .project-item {
+        /* Apply consistent styling to both */
+        border-left: 3px solid #d1d5db; /* Light gray line */
+        padding-left: 1rem;
+        margin-bottom: 1.5rem;
+        position: relative;
+      }
+      .experience-item::before,
+      .project-item::before {
+        /* Consistent dot styling */
+        content: "";
+        position: absolute;
+        left: -8px;
+        top: 0;
+        width: 16px;
+        height: 16px;
+        background-color: #ef4444; /* Red dot */
+        border-radius: 50%;
+        border: 2px solid #ffffff;
+      }
+      .project-item .tech-stack {
+        font-size: 0.85rem;
+        color: #6b7280;
+        margin-top: 0.5rem;
+        margin-bottom: 0.75rem;
+      }
+      .project-link {
+        font-size: 0.85rem;
+        color: #2563eb; /* Blue for links */
+        text-decoration: none;
+        margin-left: 0.5rem;
+        font-weight: 600; /* Make the link text a bit bolder */
+      }
+      .project-link:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="resume-container">
+      <div class="header-section">
+        <h1 class="text-4xl font-extrabold mb-2">Armaan Aggarwal</h1>
+        <p class="text-xl text-gray-300">
+          Aspiring Software Developer & Data Analyst
+        </p>
+        <div class="flex flex-wrap justify-center gap-x-6 text-sm mt-5">
+          <span>📧 armaanaggarwal72@gmail.com</span>
+          <span>📞 +91 93159 80109</span>
+          <span
+            >🔗
+            <a
+              href="https://github.com/Armaanagg7"
+              class="text-red-300 hover:underline"
+              >GitHub</a
+            ></span
+          >
+          <span
+            >🔗
+            <a
+              href="https://linkedin.com/in/armaan-agg7"
+              class="text-red-300 hover:underline"
+              >LinkedIn</a
+            ></span
+          >
+        </div>
+      </div>
+
+      <div class="main-content">
+        <section class="mb-8">
+          <h2 class="section-title">Professional Summary</h2>
+          <p class="text-gray-700 leading-relaxed text-base">
+            Dynamic and results-oriented Final Year BCA student with a robust
+            technical foundation in **Python, C++, C, HTML5, CSS3, JavaScript,
+            and SQL**. Proven ability to **develop scalable solutions, analyze
+            complex datasets, and optimize digital platforms**. Eager to
+            leverage expertise in **AI/ML applications, web development, and
+            data visualization (Power BI)** to drive innovation and contribute
+            to high-impact projects within a leading global technology firm.
+            Possesses strong **communication, problem-solving, and
+            cross-functional collaboration** skills.
+          </p>
+        </section>
+
+        <section class="mb-8">
+          <h2 class="section-title">Technical Skills</h2>
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-3 text-base text-gray-700"
+          >
+            <div>
+              <span class="font-semibold text-gray-800">Languages:</span> C,
+              C++, Python, HTML5, CSS3, JavaScript
+            </div>
+            <div>
+              <span class="font-semibold text-gray-800">Databases:</span> SQL
+            </div>
+            <div>
+              <span class="font-semibold text-gray-800">Web Tech:</span> HTML,
+              CSS, JavaScript, WordPress, Web Design Tools
+            </div>
+            <div>
+              <span class="font-semibold text-gray-800">AI/ML Tools:</span>
+              Google Vertex AI (Prompt Design), Generative AI, Productivity
+              Enhancement
+            </div>
+            <div>
+              <span class="font-semibold text-gray-800">Data & Analytics:</span>
+              Power BI (In Progress, Expected June 2025), WhatsApp Analytics
+            </div>
+            <div>
+              <span class="font-semibold text-gray-800">Software:</span> MS
+              Office, Canva, KineMaster, Filmora, VN
+            </div>
+            <div>
+              <span class="font-semibold text-gray-800"
+                >Hardware/Robotics:</span
+              >
+              Basic Arduino Programming
+            </div>
+          </div>
+        </section>
+
+        <section class="mb-8">
+          <h2 class="section-title">Technical Projects</h2>
+
+          <div class="project-item">
+            <h3 class="font-semibold text-xl text-gray-800">
+              Newsify: AI-Powered Personalized News Aggregator
+            </h3>
+            <p class="text-sm text-gray-600 mb-2">
+              Developed a full-stack web application leveraging AI for
+              personalized news aggregation and sentiment analysis, enhancing
+              user information consumption.
+            </p>
+            <p class="tech-stack">
+              <strong>Technologies:</strong> Python (Flask, NLTK, Beautiful
+              Soup, Requests), HTML, CSS, SQLite
+            </p>
+            <ul class="list-disc ml-5 text-base text-gray-700">
+              <li>
+                Implemented robust **user authentication** (login/registration)
+                and managed user data efficiently with **SQLite**.
+              </li>
+              <li>
+                Integrated **NLTK** for advanced **sentiment analysis**,
+                providing granular scores (positive, negative, neutral,
+                compound) on URL-based news articles.
+              </li>
+              <li>
+                Utilized **Beautiful Soup** and **Requests** for efficient web
+                scraping and real-time news aggregation from diverse sources.
+              </li>
+              <li>
+                Designed a **Flask**-based backend and interactive frontend with
+                **HTML/CSS** to display personalized news feeds and track search
+                history.
+              </li>
+            </ul>
+          </div>
+
+          <div class="project-item">
+            <h3 class="font-semibold text-xl text-gray-800">
+              Secure Password Generator
+              <a
+                href="https://armaanagg7.github.io/Password-Generator/"
+                class="project-link"
+                target="_blank"
+                >Project URL: View Here</a
+              >
+            </h3>
+            <p class="text-sm text-gray-600 mb-2">
+              Engineered a user-friendly web application for generating strong,
+              customizable passwords, promoting enhanced online security.
+            </p>
+            <p class="tech-stack">
+              <strong>Technologies:</strong> HTML, CSS, JavaScript
+            </p>
+            <ul class="list-disc ml-5 text-base text-gray-700">
+              <li>
+                Designed and implemented a robust **randomization algorithm** to
+                create highly secure passwords based on user-defined length and
+                character sets.
+              </li>
+              <li>
+                Integrated a **real-time password strength indicator** to
+                visually guide users in creating resilient credentials.
+              </li>
+              <li>
+                Developed an intuitive interface using **HTML, CSS, and
+                JavaScript** for seamless character set selection (uppercase,
+                lowercase, numbers, symbols).
+              </li>
+            </ul>
+          </div>
+
+          <div class="project-item">
+            <h3 class="font-semibold text-xl text-gray-800">
+              Personal Portfolio Website
+              <a
+                href="https://armaanagg7.github.io/Portfolio-Website/"
+                class="project-link"
+                target="_blank"
+                >Project URL: View Here</a
+              >
+            </h3>
+            <p class="text-sm text-gray-600 mb-2">
+              Developed and deployed an interactive personal portfolio website
+              to professionally showcase technical projects, skills, and contact
+              information.
+            </p>
+            <p class="tech-stack">
+              <strong>Technologies:</strong> HTML, CSS, JavaScript, Typed.js,
+              Font Awesome
+            </p>
+            <ul class="list-disc ml-5 text-base text-gray-700">
+              <li>
+                Crafted a **responsive and visually appealing design** using
+                **HTML and CSS** for optimal viewing across diverse devices.
+              </li>
+              <li>
+                Integrated **JavaScript** with **Typed.js** for dynamic text
+                animations in the hero section, significantly enhancing user
+                engagement.
+              </li>
+              <li>
+                Implemented **smooth navigation** and an **interactive project
+                showcase** powered by **Font Awesome icons** for intuitive user
+                experience.
+              </li>
+            </ul>
+          </div>
+
+          <div class="project-item">
+            <h3 class="font-semibold text-xl text-gray-800">
+              Interactive Resume Web Application
+              <a
+                href="https://armaanagg7.github.io/MyResume-WebApp/"
+                class="project-link"
+                target="_blank"
+                >Project URL: View Here</a
+              >
+            </h3>
+            <p class="text-sm text-gray-600 mb-2">
+              Designed and developed a responsive web-based resume to
+              dynamically showcase professional experience, technical skills,
+              and projects.
+            </p>
+            <p class="tech-stack">
+              <strong>Technologies:</strong> HTML5, CSS3 (Tailwind CSS),
+              JavaScript
+            </p>
+            <ul class="list-disc ml-5 text-base text-gray-700">
+              <li>
+                Engineered a **clean, modern, and responsive layout** using
+                **HTML5 and Tailwind CSS** for optimal viewing on all devices.
+              </li>
+              <li>
+                Structured content logically to highlight **professional
+                summary, technical expertise, project portfolio, and work
+                experience**.
+              </li>
+              <li>
+                Ensured **cross-browser compatibility** and **user-friendly
+                navigation** for an enhanced viewing experience.
+              </li>
+              <li>
+                Demonstrates practical application of front-end development
+                skills in creating a professional online presence.
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="mb-8">
+          <h2 class="section-title">Work Experience & Leadership</h2>
+
+          <div class="experience-item">
+            <h3 class="font-semibold text-xl text-gray-800">
+              Workshop Trainer – Robotics & Drones
+            </h3>
+            <p class="text-sm text-gray-600 mb-2">
+              Vigyantram | Delhi | 2023 – Present | Freelancer
+            </p>
+            <ul class="list-disc ml-5 text-base text-gray-700">
+              <li>
+                Designed and delivered engaging hands-on workshops on Robotics
+                and Drone technology to 200+ students, fostering technical
+                skills development.
+              </li>
+              <li>
+                Simplified complex concepts into digestible modules, enhancing
+                learning retention and practical application.
+              </li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <h3 class="font-semibold text-xl text-gray-800">
+              Social Media & Web Content Specialist
+            </h3>
+            <p class="text-sm text-gray-600 mb-2">
+              CPJ College | Delhi | 2022 – May 2025
+            </p>
+            <ul class="list-disc ml-5 text-base text-gray-700">
+              <li>
+                Spearheaded content creation for college social media platforms,
+                significantly increasing student engagement and brand
+                visibility.
+              </li>
+              <li>
+                Identified and documented critical website bugs, collaborating
+                with technical teams to ensure seamless user experience and
+                functionality.
+              </li>
+              <li>
+                Managed and streamlined WhatsApp lead generation and
+                communication, contributing to improved student recruitment
+                efforts.
+              </li>
+              <li>
+                Awarded a Letter of Appreciation for outstanding contributions
+                to the college's digital presence.
+              </li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <h3 class="font-semibold text-xl text-gray-800">Event Manager</h3>
+            <p class="text-sm text-gray-600 mb-2">
+              TeamCore Events | Delhi | 2023 – Present | Freelancer
+            </p>
+            <ul class="list-disc ml-5 text-base text-gray-700">
+              <li>
+                Directed and managed promoter teams for over 60 large-scale
+                events, ensuring successful execution and adherence to
+                operational goals.
+              </li>
+              <li>
+                Implemented strategic event planning and logistical
+                coordination, optimizing resource allocation and enhancing
+                participant experience.
+              </li>
+              <li>
+                Demonstrated strong leadership and problem-solving skills in
+                dynamic, high-pressure environments.
+              </li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <h3 class="font-semibold text-xl text-gray-800">Lead Volunteer</h3>
+            <p class="text-sm text-gray-600 mb-2">
+              CPJ College Events | Delhi | 2022 – May 2025
+            </p>
+            <ul class="list-disc ml-5 text-base text-gray-700">
+              <li>
+                Coordinated and led multiple college events and fests,
+                overseeing volunteer teams and logistical arrangements.
+              </li>
+              <li>
+                Ensured smooth event flow and positive participant experience,
+                showcasing strong organizational and interpersonal skills.
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="mb-8">
+          <h2 class="section-title">Education</h2>
+          <div class="mb-4">
+            <h3 class="font-semibold text-lg text-gray-800">
+              Bachelor of Computer Applications (BCA)
+            </h3>
+            <p class="text-sm text-gray-600">
+              CPJ College, GGSIPU, Delhi — 2022–2025 | CGPA: 8.8 / 10
+            </p>
+          </div>
+          <div class="mb-4">
+            <h3 class="font-semibold text-lg text-gray-800">
+              Senior Secondary (12th)
+            </h3>
+            <p class="text-sm text-gray-600">
+              CBSE Board, Sarvodaya Vidyalaya, Sec-7 Rohini, Delhi — 2022 |
+              CGPA: 7.4 / 10
+            </p>
+          </div>
+          <div>
+            <h3 class="font-semibold text-lg text-gray-800">
+              Secondary (10th)
+            </h3>
+            <p class="text-sm text-gray-600">
+              CBSE Board, Sarvodaya Vidyalaya, Sec-7 Rohini, Delhi — 2020 |
+              CGPA: 7.1 / 10
+            </p>
+          </div>
+        </section>
+
+        <section class="mb-8">
+          <h2 class="section-title">
+            Certifications & Professional Development
+          </h2>
+          <ul class="list-disc ml-5 text-base text-gray-700">
+            <li>Prompt Design in Vertex AI – Google Cloud</li>
+            <li>Robotics & Drone Training – Vigyantram (Certified)</li>
+            <li>
+              AI Tools Workshop – BE10x (Focused on Generative AI for
+              productivity enhancement, achieving up to 95% efficiency
+              improvements in various tasks.)
+            </li>
+            <li>
+              Power BI Fundamentals – Microsoft Learn (In Progress, Expected
+              June 2025)
+              <ul class="list-circle ml-5 mt-1">
+                <li>
+                  Currently mastering data visualization, Power Query, DAX, and
+                  interactive dashboard creation.
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 class="section-title">Strengths</h2>
+          <ul class="list-disc ml-5 text-base text-gray-700">
+            <li>
+              Adaptability & Problem-Solving: Proficient in navigating complex
+              challenges and rapidly acquiring new technologies.
+            </li>
+            <li>
+              Strong Communication & Presentation Skills: Adept at conveying
+              technical information and engaging diverse audiences.
+            </li>
+            <li>
+              Leadership & Team Collaboration: Proven ability to lead
+              initiatives, manage teams, and work effectively independently or
+              collaboratively.
+            </li>
+            <li>
+              Results-Oriented & Ambitious: Committed to exceeding expectations
+              and driving impactful outcomes in fast-paced environments.
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
